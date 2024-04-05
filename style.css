@@ -1,0 +1,53 @@
+/* h1{
+    color: chartreuse;
+    text-align: center;
+    text-decoration: white dotted underline; */
+    /* text-decoration: overline; */
+    /* text-decoration: line-through; */
+/* } */
+
+p{
+    color:cornflowerblue;
+    text-align: center;
+}
+
+button{
+    color:brown;
+    background-color: rgb(0,0,255);
+}
+
+body{
+    background-color:black;
+}
+
+a{
+    text-decoration: none;
+}
+
+#h1{
+    font-weight: normal;
+    color:aqua;
+}
+
+#h2{
+    font-weight: bold;
+    color:aqua;
+}
+
+#h3{
+    font-weight: bolder;
+    color:aqua;
+}
+
+#h4{
+    font-weight: lighter;
+    color:aqua;
+}
+
+#paraone{
+    font-family:arial;
+}
+
+a{
+    text-align: center;
+}

@@ -1,0 +1,17 @@
+.loader{
+    border: 10px solid blue;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border-left: 10px solid pink;
+    animation: spinAnimate 3s ease-in 0s infinite alternate;
+}
+
+@keyframes spinAnimate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}

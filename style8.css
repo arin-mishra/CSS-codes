@@ -1,0 +1,50 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    border: 2px solid black;
+    /* transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: steps(5); */
+    /* transform: rotate(45deg); */
+    position: absolute;
+    top: 100px;
+    left: 100px8;
+    /* animation-name: colorAnimate;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-delay: 1s;
+    animation-iteration-count: 5; */
+    animation: colorAnimate 4s ease-in 1s infinite normal;
+}
+
+
+@keyframes colorAnimate {
+    0% { 
+        left: 0px;
+        background-color: aquamarine;
+    }
+    
+    50%{
+        background-color: red;
+    }
+
+    100%{
+        left: 200px;
+        background-color: chartreuse;
+        color: white;
+    }
+}
+
+
+
+
+
+
+
+
+/* div:hover{
+    background-color: red;
+    color: white;
+    font-size: large;
+} */

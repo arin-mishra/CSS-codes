@@ -1,0 +1,12 @@
+#one{
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 20px;
+    text-transform: capitalize;
+}
+
+#three{
+    /* normal font size is 16 */
+    font-size: 10px;
+}
+
